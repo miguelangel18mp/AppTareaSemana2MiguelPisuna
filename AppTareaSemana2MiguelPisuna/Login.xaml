@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTareaSemana2MiguelPisuna.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Semana 3"/>
+            <Image Source="https://uisrael.edu.ec/wp-content/uploads/2020/03/Logo-Uisrael-formal-2@2x.png" 
+               HeightRequest="300" />
+            <Entry x:Name="txtuser" Placeholder="Usuario"></Entry>
+            <Entry x:Name="txtPass" Placeholder="Password" IsPassword="True"></Entry>
+
+            <Button x:Name="btnIngresar" Text="Ingresar" Clicked="btnIngresar_Clicked"></Button>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
